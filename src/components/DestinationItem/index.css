@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.destination-container {
+  margin: 20px;
+  padding: 10px;
+}
+
+.destination-img {
+  width: 600px;
+  height: 500px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.destination-description {
+  font-size: 18px;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  color: #0f172a;
+  padding: 5px;
+}
+
+li {
+  list-style-type: none;
+}
